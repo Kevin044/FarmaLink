@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'RalewayBold';
+    src: url(fonts/Raleway/static/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: 'RalewayMedium';
+    src: url(fonts/Raleway/static/Raleway-Medium.ttf);
+}
+
+
+.brand{
+    font-family: 'RalewayBold';
+    font-size: 24px;
+    color: #000;
+}
+.masuk{
+    text-decoration: none;
+    color:#000;
+    font-family: 'RalewayMedium';
+    font-size: 14px;
+}
+.navbar-toggler{
+    border: none;
+}
+
+.body-background{
+    background-color: #f5f9f9;
+    background-image: linear-gradient(#f5f9f9,#ABD0D3);
+    height: 640px;
+}
+
+.contact{
+    padding-top: 5%;
+    font-size: 18px;
+    font-family: 'RalewayBold';
+}
+
+.info{
+    margin-top: 3%;
+    font-size: 13px;
+    font-family: 'RalewayBold';
+}
+.detail-info{
+    font-size: 13px;
+    font-family: 'RalewayMedium';
+}
+
+.footer-color{
+    background-color: #fff;
+    height: 50px;
+    margin-top: 1%;
+    font-size: 12px;
+    font-family: 'RalewayMedium';
+}
+
+.footer-info{
+    margin-right: 3%;
+}
+
+.footer-image{
+    width: 32px;
+    margin-left: 3%;
+}
+
+.copyright{
+    font-size: 8px;
+    font-family: 'RalewayMedium';
+    padding: 1% 0 1% 0;
+}
+
+@media screen and (max-width: 1450px) {
+    .masuk{
+        margin-left: 80%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .masuk{
+        margin-left: 48%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .masuk{
+        margin-left: 35%;
+    }
+}
+@media screen and (max-width: 360px) {
+    .masuk{
+        margin-left: 20%;
+    }
+    .contact{
+        padding-top: 10%;
+    }
+    .info{
+        margin-top: 10%;
+    }
+    .footer-color{
+        padding-top: 2%;
+    }
+    .footer-image{
+        margin-left: 10%;
+    }
+    .copyright{
+        padding: 2% 0 2% 0;
+    }
+}

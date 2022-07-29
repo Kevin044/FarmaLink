@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Main/registcss/informasiOutlet_style.css">
+    <!-- Bootstrap5 CSS -->
+  	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <title>Daftar Apotek</title>
+</head>
+<body>
+	<section class="profil">
+		<div class="justify-content-md-center"> 
+			
+			<div class="arrow-steps clearfix py-3" id="progressbar">
+					  <div class="step"><span>Informasi Usaha</span> </div>
+					  <div class="step current"><span>Informasi Outlet</span></div>
+					  <div class="step"><span>Registrasi Akun</span> </div>
+			</div>
+
+			<div class="form form-step form-step-active">
+					<div class="container pt-5" id="contain">
+						<div class="row justify-content-md-center">
+								<div class="card-wrapper">                       
+										<form class="post" method="POST">				
+											<div class="form-group">
+												<label for="Apotek">NAMA APOTEK*</label>
+												<input id="Apotek" type="Apotek" class="form-control input-sm" name="Apotek"  required autofocus>
+											</div>	
+											<div class="pharmacy row justify-content-md-center pt-4">
+												<label for="Alamat">ALAMAT APOTEK</label>
+												<select class="apotek mt-2 p-4">
+													<option value=" ">Pilih Lokasi Apotek</option>
+													<option value="1">Jl. Mangga Apel No.10 RT.03/RW.11, Kec. Jagakarsa, Jakarta selatan, Daerah Khusus Ibukota Jakarta</option>
+													<option value="2">Jl. contoh </option>
+													<option value="3">Jl. contoh 2</option>
+												</select>	
+											</div>
+											<div class="jamBuka justify-content-md-center">
+												<label for="Jam" class="row ps-2 mt-4">Hari & Jam Operasional</label>
+												<div id="jamOperasional">
+													<select class="hari " id="HARI">
+														<option value=" ">Hari</option>
+														<option value="1">senin</option>
+														<option value="2">selasa</option>
+														<option value="3">rabu</option>
+														<option value="4">kamis</option>
+														<option value="5">jumaat</option>
+														<option value="6">sabtu</option>
+														<option value="7">minggu</option>
+													</select> 
+													<label><strong>-</strong></label>
+													<select class="hari mt-2 " id="HARI">
+														<option value=" ">Hari</option>
+														<option value="1">senin</option>
+														<option value="2">selasa</option>
+														<option value="3">rabu</option>
+														<option value="4">kamis</option>
+														<option value="5">jumaat</option>
+														<option value="6">sabtu</option>
+														<option value="7">minggu</option>
+													</select>
+													<form action="">
+														<label class="jam" for="appt1 appt2">:pukul</label>
+														<input class="waktu" type="time" id="appt1" name="appt">
+														<label><strong>-</strong></label>
+														<input class="waktu" type="time" id="appt2" name="appt">
+													</form>
+												</div>											
+											</div>
+										</form>	
+									<div class="post" id="POST2">
+										
+										<form name="inputnumber"autocomplete="off" class="form-group">
+											<label for="phone">NOMOR WHATSAPP APOTEK*</label>
+           								<input type="tel" size="50%" onkeypress="return onlyNumberKey(event)" id="telepon" required autofocus>
+										
+										</form>
+										<form name="inputnumber"autocomplete="off" class="form-group mt-4">
+											<label for="phone">NOMOR TELEPON APOTEK*</label>
+										<input type="tel" size="50%" onkeypress="return onlyNumberKey(event)" id="telepon" required autofocus>
+										</form>
+									</div>
+										
+									
+
+										<div class="footer">
+											<div class="form-group text-center ">
+												<button type="submit" class="btn1">
+													<a href="registrasi_Akun.html" class="next pull">KIRIM</a>
+												</button><br>
+												<button type="submit" class="btn2">
+													<a href="informasi_usaha.html" class="prev">Batal</a>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+	</section>
+
+	
+
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+   	<script src="Main/regisjava/informasi.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/pooper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/my-login.js"></script>
+</body>
+</html>

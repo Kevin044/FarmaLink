@@ -1,0 +1,185 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to top, #c4dbde 50%, #ffffff 100%);
+    background-size: contain;
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h3 {
+    padding: 80px 10px 0px 0px;
+    font-size: 40px !important;
+    font-weight: 700 !important;
+    line-height: 1.5 !important;
+}
+
+legend {
+    padding-bottom: 10px !important;
+    /* padding-left: 19px !important; */
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 80px;
+    padding-right: 177px !important;
+    border-bottom: 1px solid rgb(48, 46, 46);
+    float: none !important;
+}
+
+.card-wrapper {
+    width: 400px;
+    margin: 0 auto; 
+}
+
+.card {
+    border-color: transparent;
+    background: transparent;
+}
+
+.post {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    
+}
+
+.form-control {
+    border-width: 2.3px;
+    padding: 10px 10px;
+    width: 100%;
+    border-radius: 14px;
+}
+
+.form-group label {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn,
+.btn-close {
+    padding: 12px 10px !important;
+    cursor: pointer;
+    border: transparent;
+    opacity: 1 !important;
+}
+
+.btn1,
+.btn-close {
+    padding: 12px 10px !important;
+    cursor: pointer;
+    background-color: #ffffff !important;
+    color: rgba(168, 168, 168, 0.692);
+    border-radius: 20px !important;
+    border: transparent;
+    width: 250px;
+    margin-top: 200px;
+}
+
+.btn1:hover {
+    color: white;
+    background-color: #b6b6b6 !important;
+}
+
+.margin-top20 {
+    margin-top: 20px;
+}
+
+.float-right {
+    float: right;
+}
+
+.chek {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.chek input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+    border: 2px solid transparent;
+    border-radius: 2px;
+}
+
+.chek input:checked~.checkmark {
+    background-color: #ccc;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.chek input:checked~.checkmark:after {
+    display: block;
+}
+
+.chek .checkmark:after {
+    left: 3px;
+    top: -2px;
+    width: 10px;
+    height: 15px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+@media screen and (max-width: 375px) {
+	.post{
+        width: auto;
+    }
+    .brand{
+        float: left;
+    }
+
+}
+
+@media screen and (max-height: 690px) {
+
+	.login-post{
+		top: 35%;
+	}
+
+	body{
+		display: block !important;
+	}
+
+
+	.login-footer {
+		margin-top: 20px;
+	}
+
+    .btn1{
+        margin-top: auto;
+    }
+
+
+}

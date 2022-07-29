@@ -1,0 +1,265 @@
+html,body {
+	height: 100%;
+}
+
+body{
+	
+	background: linear-gradient(to top, #c4dbde 50%, #ffffff 100%);
+	background-size: contain;
+
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* ------------------------------------------------------------------------------------------*/
+.sambutan{
+    font-weight: 700;
+    font-size: 26px;
+}
+.namaApotek{
+	font-weight: 600;
+	font-size: 30px;
+}
+.profil{
+    font-size: 14px;
+    color: #000000;
+    text-decoration: underline;
+}
+.reminder{
+    font-size: 18px;
+    font-weight: 500;
+}
+.menuCard{
+    background-color: #FFFDF9;
+    border-radius: 20px;
+    text-align: center;
+}
+#btn1{
+    background-color: #C5BD7C;
+    border: none;
+    color: black;
+    font-weight: 600;
+    padding: 40px 80px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+#faIcon{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.judul{
+    width: 60%;
+}
+/*--------------------------------------------------------------------------------------*/
+
+#CONTAIN{
+	background-color: #c2dadb;
+	max-width: 100%;
+}
+
+/*--------------------------------------------------------------------------------------*/
+.tab .nav-tabs {
+    border-bottom:0 none;
+	
+}
+
+.tab .nav-tabs li a{
+	position: relative;
+    padding: 15px;
+    color: #FFFDF9;
+    left: 15px;
+    font-size: 17px;
+	text-decoration: none;
+}
+
+
+.tab .nav-tabs li a:before{
+	content: "";
+    width: 170%;
+    height: 60%;
+    position: absolute;
+    bottom: 8px;
+    left: -50px;
+    background: #A9CFD2;
+    border: 1px solid #d3d3d3;
+    border-bottom: 0px none;
+    transform: perspective(4px) rotateX(2deg);
+    z-index: -1;
+}
+
+.tab .nav-tabs #tab2 a:before{
+	background-color: #FFFDF9;
+}
+
+#tab2 a{
+	color: #A9CFD2;
+}
+
+.tab .nav-tabs li{
+   margin-right: 120px;
+   margin-top: 5px;
+}
+.tab .nav-tabs li.active a:before{
+    background: #008A8A;
+}
+
+.tab-content .tab-pane{
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border: 1px solid #408080;
+    padding: 20px;
+    background:#EFF8F8;
+    line-height: 22px;
+}
+
+
+/*-----------------------------------------------------------------------*/
+/*------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------*/
+.margin-top20 {
+	margin-top: 20px;
+}
+
+.float-right{
+	float: right;
+}
+
+.footer {
+	padding: 15px 0;
+  }
+
+ footer > div{
+	text-align: center;
+ }
+
+ .footer-image{
+    width: 32px;
+}
+
+.footer {
+	background-color: #ffffff;
+	bottom: 0;
+	width: 100%;
+  }
+
+
+.help a{
+	text-decoration: none;
+	color: #000000;
+	font-weight: 500;
+}
+
+
+#table-foot1{
+	width: 70px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .tab .nav-tabs li a{
+        padding: 15px 10px;
+        font-size: 10px;
+    }
+	.tab .nav-tabs li, #tab1{
+		margin-right: 0px;
+	 }
+	 .tab .nav-tabs li, #tab2{
+		margin-right: 0px;
+        margin-left: -2vmax;
+	 }
+
+}
+
+@media screen and (max-height: 666px) {
+	.sidenav {padding-top: 15px;}
+	.tab .nav-tabs li{
+		margin-right: 0px;
+	 }
+}
+
+@media screen and (max-width: 480px) {
+	.foottext{
+		font-size: 12px;
+	}
+	.footer-image{
+		width: 25px;
+	}
+	.nav .nav-tabs, #tab{
+		margin-left: 0%;
+	}
+	.tab .nav-tabs li a {
+		left: 0px;
+	}
+	.tab .nav-tabs li{
+		width: 35%;
+		margin-bottom: 5px;
+		margin-top: 5px;
+    }
+	.tab .nav-tabs li, #tab1{
+		margin-right: 0px;
+	 }
+	 .tab .nav-tabs li, #tab2{
+		margin-right: 0px;
+	 }
+    .tab .nav-tabs li a:before{
+        border-bottom: 1px solid #d3d3d3;
+        width: 100%;
+        left: 0px;
+    }
+	
+}
+
+@media screen and (max-width: 395px) {
+
+	.navtitle{
+		font-size: 20px !important;
+		padding-right: 0px !important;
+	}
+
+	.container3{
+		font-size: 10px;
+	}
+	.tab .nav-tabs li {
+		width: 50%;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+	.tab .nav-tabs li, #tab1{
+		margin-right: 0px;
+	 }
+	 .tab .nav-tabs li, #tab2{
+		margin-right: 0px;
+	 }
+	.tab .nav-tabs li a {
+		left: 0px;
+		padding: 15px 10px;
+		font-size: 10px;
+	}
+	.tab .nav-tabs li a:before{
+		border-bottom: 1px solid #d3d3d3;
+        left: 0px;
+	}
+	.apotek2{
+		font-size: 10px;
+	}
+
+}
+@media screen and (max-width: 375px) {
+	.tab .nav-tabs li {
+		width: 50%;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+	.tab .nav-tabs li, #tab1{
+		margin-right: 0px;
+	 }
+	 .tab .nav-tabs li, #tab2{
+		margin-right: 0px;
+	 }
+}

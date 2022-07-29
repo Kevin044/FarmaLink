@@ -1,0 +1,204 @@
+html,body {
+	height: 100%;
+}
+
+body{
+	background: linear-gradient(to top, #ffffff 0%,     #bed7da 75%);
+	background-size: contain;
+	margin-bottom: 60px;
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ /* -------------------------------------------Style the navbar ------------------------------------------------*/
+#navbar {
+	overflow: hidden;
+	background-color: rgb(255, 255, 255);
+  }
+
+  .sidenav {
+	height: 90%;
+	width: 0 ;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: rgb(255, 255, 255);
+	overflow-x: hidden;
+	transition: 0.5s;
+
+  }
+  
+  .sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	
+  }
+  
+  .sidenav a:hover {
+	color: #0f0f0f;
+  }
+  
+  .sidenav .closebtn {
+	padding: 0px 20px 40px 10px !important;
+    font-size: 36px;
+    text-align: right !important;
+	margin:12px;
+	margin-right:5px;
+	margin-top:0px;
+  }
+  
+  #navbar a {
+	display: block;
+	color: #000000;
+	text-align: left;
+	margin-left: 5px;
+	padding: 14px;
+	text-decoration: none;
+  }
+
+  .navheader{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	text-align: center;
+  }
+  .navtitle{
+	margin:12px;
+	margin-left:5px;
+	margin-top:2px;
+	padding: 5px 15px 	!important;
+	text-align: left!important;
+	font-weight: 700;
+  }
+
+  /* -------------------------------------------------Navbar ends --------------------------------------------------*/
+
+  .btn1{
+    font-family: Raleway;
+    background: #FFFDF9;
+    border: 1px solid #C5BD7C;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 175px;
+    height: 25px;
+    left: 24px;
+    top: 112px;
+    font-size: 14px !important;
+    color: #000000;
+    text-decoration: none;
+    padding: 3px;
+  }
+
+  .btn2{
+    font-family: Raleway;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    background: #FFFDF9;
+    border: 1px solid #C5BD7C;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 350px;
+    height: 60px;
+    left: 24px;
+    top: 112px;
+    text-align: left;
+    padding-left: 10px;
+    color: #000000;
+    text-decoration: none;
+    padding-top: 20px;
+  }
+
+  .btn1:hover, .btn2:hover{
+	color:white;
+	background-color: #b6b6b6 !important;
+}
+
+  /*-----------------------------------------header------------------------------------------------*/
+  .menu{
+	padding: 5px 15px 	!important;
+  }
+  .login{
+	padding: 5px 25px !important;
+	font-weight: 500;
+	font-weight: 700;
+  }
+  
+/*-----------------------------------------header ends------------------------------------------------*/
+  .sambutan{
+      padding-top: 10px;
+  }
+/* -------------------Page content ----------------------------*/
+
+
+.Farmalink {
+	padding: 35px 10px 0px 0px;
+	line-height: 1.5 !important;
+	text-align: center;
+}
+
+
+
+/*------------------------------------------------------------------------*/
+
+/*--------(^ button sosmed)------------------------------------*/
+
+.margin-top20 {
+	margin-top: 20px;
+}
+
+.float-right{
+	float: right;
+}
+
+
+.container{
+	text-align: center;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    padding: 20px 20px 20px 20px;    
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------Help settings----------------------------------------*/
+	
+
+.judul{
+	font-weight: 400;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+
+.isi{
+    margin-right: 200px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+  
+	
+  }
+
+
+@media screen and (max-width: 320px) {
+	
+}

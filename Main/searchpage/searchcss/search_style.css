@@ -1,0 +1,280 @@
+html,body {
+	height: 100%;
+}
+
+body{
+	
+	background: linear-gradient(to top, #c4dbde 50%, #ffffff 100%);
+	background-size: contain;
+	margin-bottom: 60px;
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ /* -------------------------------------------Style the navbar ------------------------------------------------*/
+ #navbar {
+	overflow: hidden;
+	background-color: rgb(255, 255, 255);
+  }
+
+  .sidenav {
+	height: 90%;
+	width: 0 ;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: rgb(255, 255, 255);
+	overflow-x: hidden;
+	transition: 0.5s;
+
+  }
+  
+  .sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	
+  }
+  
+  .sidenav a:hover {
+	color: #0f0f0f;
+  }
+  
+  .sidenav .closebtn {
+	padding: 0px 20px 40px 10px !important;
+    font-size: 36px;
+    text-align: right !important;
+	margin:12px;
+	margin-right:5px;
+	margin-top:0px;
+  }
+  
+  #navbar a {
+	display: block;
+	color: #000000;
+	text-align: left;
+	margin-left: 5px;
+	padding: 14px;
+	text-decoration: none;
+  }
+
+  .navheader{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	text-align: center;
+	
+  }
+  .navtitle{
+    margin-top: 2px;
+    padding: 10px 15px !important;
+	text-align: left!important;
+	font-weight: 700;
+  }
+
+  .menu{
+	padding: 5px 15px 	!important;
+  }
+  .login{
+	padding: 5px 25px !important;
+	font-weight: 500;
+	font-weight: 700;
+  }
+
+  .content {
+	padding: 16px;
+  } 
+.Farmalink {
+	padding: 30px 10px 0px 0px;
+	line-height: 1.5 !important;
+	text-align: center;
+}
+.brand{
+	font-size: 45px ;
+	font-weight: 700 !important;	
+	height: 55px;
+}
+
+.caption{
+	height: 40px;
+	font-size: 12px;
+	font-weight: 600 !important;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+
+.explanation{
+	font-size: 16px;
+	height: 25px;
+	color: #929292;
+	font-weight: 500;
+}
+
+
+.apotek{
+	font-weight: 700;
+	text-align: center;
+	border: none;
+	border-color: transparent !important;
+	background-color: transparent !important;	
+	float: center;
+}
+/*--------------------------------------------------------------------------------------*/
+.card-wrapper {
+	width: 400px;
+	margin: 0 auto;
+	padding: 140px 0px 0px 0px;
+}
+
+.card {
+	border-color: transparent;
+	background: transparent;
+
+}
+
+.post{
+	position: relative;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 350px;
+}
+/*-----------------------------------------------------------------------*/
+.form-control {
+	border-width: 2.3px;
+	padding: 10px 10px;
+	width: 100%;
+	border-radius: 14px;
+}
+
+
+.form-group label {
+	width: 100%;
+	margin-top: 20px;
+}
+/*------------------------------------------------------------------------*/
+.btn, .btn:focus{
+	padding: 12px 10px !important;
+	cursor: pointer;
+	border: transparent;
+	opacity: 1 !important;
+}
+/*--------(^ button sosmed)-------------(v button cari obat)-----------------------*/
+.btn1 {
+	padding: 12px 10px !important;
+	cursor: pointer;
+	background-color: #ffffff !important;
+	color: black;
+	border-radius: 20px !important;
+	border: transparent;
+	width: 250px ;
+	margin-top: 75px;
+}
+
+/*-----------------------------------------------------------------------------*/
+.margin-top20 {
+	margin-top: 20px;
+}
+
+.float-right{
+	float: right;
+}
+
+.container{
+	text-align: center;
+}
+.footer {
+	padding: 15px 0;
+  }
+
+ footer > div{
+	text-align: center;
+ }
+
+ .footer-image{
+    width: 32px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	background-color: #ffffff;
+  }
+
+
+.help a{
+	text-decoration: none;
+	color: #000000;
+	font-weight: 500;
+}
+
+
+
+@media screen and (max-height: 666px) {
+	.sidenav {padding-top: 15px;}
+
+	.btn1{
+		margin-top: 10px;
+	}
+	.Farmalink{
+		padding-top: 50px;
+	}
+
+}
+
+@media screen and (max-width: 425px) {
+	.foottext{
+		font-size: 12px;
+	}
+	.footer-image{
+		width: 25px;
+	}
+
+}
+
+@media screen and (max-width: 375px) {
+	.brand{
+		font-size: 40px;
+	}
+	.post{
+		width: auto;
+	}
+	.pharmacy{
+		font-size: small;
+		width: auto;
+	}
+	.btn1{
+		width: 100px;
+	}
+	.navtitle{
+		font-size: 20px !important;
+		padding-right: 0px !important;
+	}
+	.menu{
+		padding-left: 0px !important;
+	}
+	.login{
+		font-size: 10px !important;
+		padding: 0px !important;
+		margin-left: 0px !important;
+	}
+	.Farmalink{
+		padding-top: 20px;
+	}
+	
+	.container3{
+		font-size: 10px;
+	}
+	.card.fat {
+		padding: 10;
+	}
+
+	.card.fat{
+		padding: 15px;
+	}
+}
